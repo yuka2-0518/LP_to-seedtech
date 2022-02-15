@@ -1,0 +1,65 @@
+/*  ■■■共通  0205 */
+
+.mod_cta_content .list_mod{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  z-index: 10;
+}
+
+/* ■ */
+.mod_cta_content > ul li {
+  height: 30vh;
+  width: 35vw;
+  margin: 0 1rem;
+  margin-top: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  color: teal;
+  position: relative;
+}
+
+.mod_cta_content .list_mod > li h4{
+  font-size: 1vw;  
+  margin: 1rem 0;
+}
+
+.mod_cta_content .list_mod li .mod_flex {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+.mod_cta_content .list_mod > li .slist{
+  font-size: 2vw;  
+  margin: 1rem 0;
+}
+
+.mod_cta_content .list_mod > li .ls50{
+  font-size: 1vw;   
+}
+
+
+/* ■ */
+.mod_cta_content .list_mod .mod_flex img {
+  height: 15vh;
+  width: 15vw;
+  margin: 0 1rem;
+}
+
+.mod_cta_content .list_mod .mod_flex ul{
+  left: 100%;
+}
+
+.mod_cta_content .list_mod .mod_flex > ul li{
+  /* background-color: turquoise; */
+  height: 0;
+  width: 15vw;
+  text-align: left;
+  position: relative;
+  left: 100%;
+  list-style-type: disc;
+  z-index: 13;
+} 
+
+/*  ■■■共通   */
+
